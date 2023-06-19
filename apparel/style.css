@@ -65,6 +65,8 @@ section {
 .heading {
     text-align: center;
     margin-bottom: 10px;
+
+    text-transform: uppercase;
 }
 
 #first-screen {
@@ -91,6 +93,43 @@ section {
     font-size: 18px;
     vertical-align: center;
     /* background: bottom / cover url('./assets/photos/Rectangle\ 2.png'); */
+}
+
+#about-us {
+    margin: 2vw;
+
+    border: 2px solid blue;
+    border-radius: 4vw;
+}
+
+.scrollable-text {
+    font-size: 20px;
+
+    height: 30vw;
+    overflow: scroll;
+
+    padding: 2vw;
+}
+
+.contact-form {
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+
+    background: bottom / cover url('./assets/photos/contact-us.png');
+}
+
+.contact-form > input {
+    height: 5vh;
+    width: 80vw;
+}
+
+#comments {
+    height: 20vh;
 }
 
 #address {

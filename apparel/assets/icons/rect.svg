@@ -1,0 +1,8 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple rectangle -->
+  <rect fill="rgb(204, 205, 208)" width="800" height="100" />
+
+  <!-- Rounded corner rectangle -->
+  <rect fill="rgb(204, 205, 208)" y="200" width="800" height="100" rx="15" />
+  <rect fill="rgb(204, 205, 208)" y="400" width="800" height="100" rx="15" />
+</svg>
